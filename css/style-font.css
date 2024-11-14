@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'HankenGrotesk-Bold';
+    src: url(../fonts/HankenGrotesk-Bold.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'HankenGrotesk-ExtraBold';
+    src: url(../fonts/HankenGrotesk-ExtraBold.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'HankenGrotesk-Medium';
+    src: url(../fonts/HankenGrotesk-Medium.ttf) format(truetype);
+}

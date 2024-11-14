@@ -1,0 +1,122 @@
+body {
+    font-family: 'HankenGrotesk-Bold';
+    background-color: hsl(221, 100%, 96%);
+}
+
+.main-color {
+    color: hsl(224, 30%, 27%);
+}
+.bg-card {
+background-color: hsl(0, 0%, 100%);
+}
+p {
+    font-family: 'HankenGrotesk-Medium';
+}
+
+.result {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%);
+    height: 500px;
+}
+
+.result h1 {
+    font-family: 'HankenGrotesk-Medium';
+    font-size: 25px;
+}
+
+.result h2 {
+    color: #ffffff;
+    font-family: 'HankenGrotesk-ExtraBold';
+    font-size: 60px;
+}
+
+.result h3 {
+    color: #ffffff;
+    font-family: 'HankenGrotesk-Bold';
+}
+
+.num-result {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.num-result span {
+    color: hsl(241, 100%, 89%);
+}
+
+.reaction {
+    background: hsla(0, 94%, 75%, 0.153);
+}
+
+.reaction p {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsla(39, 87%, 72%, 0.41);
+}
+
+.memory p {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsla(166, 80%, 71%, 0.333);
+}
+
+.verbal p {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsla(234, 79%, 62%, 0.122);
+}
+
+.visual p {
+    color: hsl(234, 85%, 45%);
+}
+
+
+#continueButton{
+    background-color: hsl(224, 30%, 27%);
+    color:  hsl(0, 0%, 100%);
+
+}
+#continueButton:focus {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%))!important;
+    border-color: transparent;
+}
+
+/* #continueButton:hover {
+    background-color: hsl(241, 81%, 54%);
+} */
+
+#continueButton:active {
+    /* background-color: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%)); */
+    color: hsl(0, 0%, 100%);
+}
+
+
+@media (max-width: 375px) {
+    .result p {
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .result p {
+        width: 60%;
+    }
+
+
+}
+@media (min-width: 576px) { 
+    .bg-card{
+        width: 75%;
+    }
+
+
+}
